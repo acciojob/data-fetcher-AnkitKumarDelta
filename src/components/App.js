@@ -29,7 +29,7 @@ const App = () => {
   }
 
   if (Array.isArray(data) && data.length === 0) {
-    return <p>No data found</p>; 
+    return <pre>[]</pre>; 
   }
 
   return (
